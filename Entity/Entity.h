@@ -7,7 +7,7 @@ using namespace System;
 namespace Entity {
 #ifndef _User
 	#define _User
-		class User
+		public ref class User
 		{
 			private:
 				int id;

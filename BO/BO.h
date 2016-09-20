@@ -1,10 +1,8 @@
 // BO.h
 
 #pragma once
-
+#include "..\Entity\Entity.h"
 using namespace Entity;
-
-#include "Entity.h"
 
 using namespace System;
 
@@ -14,10 +12,12 @@ using namespace System;
 
 namespace BO {
 
-	public ref class UserBO
-	{
-		User usuario = new User();
-
-		pergunta
-	};
+#ifndef _BO
+	#define _BO
+		public class UserBO
+		{
+			public:
+				UserBO();
+		};
+	#endif 
 }
